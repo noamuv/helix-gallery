@@ -8,5 +8,5 @@ export default defineConfig({
     react(),
     babel({ presets: [reactCompilerPreset()] }),
   ],
-  base: "/Helix-Gallery",
+  base: "/helix-gallery",
 })
