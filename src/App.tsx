@@ -1,10 +1,8 @@
 import './App.css';
 import Scene from './helix/Scene';
-import Navbar from './Navbar.tsx';
-import Hero from './Pages/Hero';
 import PreLoader from './Pages/PreLoader';
 import { useScroll } from 'framer-motion';
-import { useRef, useState, useEffect } from 'react';
+import { useRef, useState } from 'react';
 
 function App() {
   const [isLoading, setIsLoading] = useState(true)

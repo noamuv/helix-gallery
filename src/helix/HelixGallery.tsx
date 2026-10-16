@@ -1,11 +1,7 @@
-import { useRef } from 'react';
 import { useTexture } from '@react-three/drei';
-import { Vector3, DoubleSide } from 'three';
-import { Line } from '@react-three/drei';
 import TiltPlane  from './TiltPlane.tsx';
 import { helixPosition, type HelixConfig } from './helixMath.ts';
 import { degToRad } from 'three/src/math/MathUtils.js';
-import { text } from 'framer-motion/client';
 
 const images = [
     { id: 1, src: 'src/assets/img1.jpg' },

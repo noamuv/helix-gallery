@@ -1,7 +1,6 @@
 import { defineConfig } from 'vite'
 import react, { reactCompilerPreset } from '@vitejs/plugin-react'
 import babel from '@rolldown/plugin-babel'
-import { base } from 'motion/react-client'
 
 // https://vite.dev/config/
 export default defineConfig({

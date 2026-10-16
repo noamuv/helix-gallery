@@ -1,6 +1,6 @@
 //Camera Rig for handling camera movement and positioning
 import { helixPosition, type HelixConfig } from './helixMath.ts';
-import { Vector3, DoubleSide, PointLight } from 'three';
+import { Vector3, PointLight } from 'three';
 import { Line } from '@react-three/drei';
 import { useFrame } from '@react-three/fiber';  
 import { useRef } from 'react';

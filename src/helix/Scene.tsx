@@ -5,20 +5,19 @@ import './Scene.css';
 import HelixGallery from './HelixGallery.tsx';
 import CameraRig from './CameraRig.tsx';
 import { Canvas } from "@react-three/fiber";
-import { OrbitControls} from "@react-three/drei";
-import { PerspectiveCamera } from "three";
+// import { PerspectiveCamera } from "three";
 import { MotionValue } from 'framer-motion';
 import { useResponsiveHelix } from './useResponsiveHelix.ts';
 
 
-function CameraHelper() {
-    const camera = new PerspectiveCamera(70, 1.77, 1, 10);
-    return (
-        <group position={[0, 0, 8]}>
-            <cameraHelper args={[camera]}/>
-        </group>
-    )
-}
+// function CameraHelper() {
+//     const camera = new PerspectiveCamera(70, 1.77, 1, 10);
+//     return (
+//         <group position={[0, 0, 8]}>
+//             <cameraHelper args={[camera]}/>
+//         </group>
+//     )
+// }
 
 interface SceneProps {
     scrollYProgress: MotionValue<number>;
