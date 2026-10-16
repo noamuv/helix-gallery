@@ -2,15 +2,20 @@ import { useTexture } from '@react-three/drei';
 import TiltPlane  from './TiltPlane.tsx';
 import { helixPosition, type HelixConfig } from './helixMath.ts';
 import { degToRad } from 'three/src/math/MathUtils.js';
+import img1 from '../assets/img1.jpg';
+import img2 from '../assets/img2.jpg';
+import img3 from '../assets/img3.jpg';
+import img4 from '../assets/img4.jpg';
+import img5 from '../assets/img5.jpg';
 
 const images = [
-    { id: 1, src: 'src/assets/img1.jpg' },
-    { id: 2, src: 'src/assets/img2.jpg' },
-    { id: 3, src: 'src/assets/img3.jpg' },
-    { id: 4, src: 'src/assets/img4.jpg' },
-    { id: 5, src: 'src/assets/img5.jpg' },
-    { id: 6, src: 'src/assets/img1.jpg' },
-    { id: 7, src: 'src/assets/img2.jpg' }
+    { id: 1, src: img1 },
+    { id: 2, src: img2 },
+    { id: 3, src: img3 },
+    { id: 4, src: img4 },
+    { id: 5, src: img5 },
+    { id: 6, src: img1 },
+    { id: 7, src: img2 }
 ];
 
 interface HelixGalleryProps {

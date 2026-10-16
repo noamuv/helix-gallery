@@ -1,7 +1,7 @@
 {
   "name": "helix-gallery",
   "private": true,
-  "homepage": "https://noamuv.github.io/Helix-Gallery/",
+  "homepage": "https://noamuv.github.io/helix-gallery/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
